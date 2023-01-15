@@ -92,8 +92,8 @@
 }
 
 .sidebar a:hover {
-  color: black;
-  text-shadow: 1px 1px 1px grey;
+  color: f1e7e3;
+  text-shadow: 1px 1px 1px white;
 }
 
 .sidebar .closebtn {
