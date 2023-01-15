@@ -1,0 +1,205 @@
+*
+  {
+    box-sizing: border-box;
+    overflow-x: hidden; 
+    margin: 0;
+  }
+
+  h1,h2,h3,h4,h5,h6
+  {
+    overflow: hidden;
+  }
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #5a3124;
+}
+
+.navbar a:hover
+{
+	color: black;
+}
+
+.navbar .icon
+{
+	display: none;
+}
+
+.navbar ol
+{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li a
+{
+  display: block;
+  padding: 14px 5px;
+}
+.navbar li
+{
+  float: left;
+}
+
+#policies ul li
+{
+  list-style-type: circle;
+}
+
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 658px) 
+{
+  .navbar li a{
+   display: none;
+  }
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: #93735c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: black;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+	display: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  background-color: #f1e7e3;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+  color: white;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.visible
+{
+	visibility: visible;
+}
+
+.hidden
+{
+	visibility: hidden;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shop2
+{
+  margin-top: 75px;
+}
+
+.shop3
+{
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 1199px) 
+{
+  .shop3{
+    margin-top: 75px;
+  }
+}
+
+#navbar
+{
+  max-width: 300px;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cat_img{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 30%;
+  }
+
+.card_btn
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #93735c;
+  color: white;
+}
+
