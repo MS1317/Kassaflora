@@ -119,6 +119,18 @@
   color: white;
 }
 
+#nav_icon
+{
+  display: block;
+}
+
+#KFlogo
+{ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 @media screen and (max-width: 658px)
 {
   .openbtn
@@ -130,8 +142,60 @@
   background-color: #f1e7e3;
   padding: 10px 15px;
   border: none;
+  width: 100%;
+  }
+
+  #KFlogo
+{ 
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+  #nav_icons ol,li,a{
+    display: none;
+  }
+
+  #policies ul,li{
+    display: inline-block;
   }
 }
+
+@media screen and (max-width: 341px)
+{
+  .openbtn
+  {
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  background-color: #f1e7e3;
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+  }
+
+  #KFlogo
+{ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Login
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+  #nav_icons ol,li,a{
+    display: none;
+  }
+
+  #policies ul,li{
+    display: inline-block;
+  }
+}
+
 
 #main {
   transition: margin-left .5s;
